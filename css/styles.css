@@ -32,6 +32,7 @@ body {
     background: var(--clr-white);
     color: var(--clr-gray-1);
     line-height: 1.5;
+    font-size: 0.875rem;
 }
 
 
