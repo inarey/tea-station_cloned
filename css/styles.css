@@ -4,7 +4,6 @@ Fonts
 
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
 
-
 /*  =============
 Variables
 ==============*/
@@ -20,12 +19,18 @@ Variables
     --ff-secondary: "Grand Hotel", cursive;
     --transition: all 0.3s linear;
     --spacing: 0.25rem;
-    --radius: 0.5rem; 
+    --radius: 0.5rem;
 }
 
 /*  =============
 Variables
 ==============*/
+
+* *::after *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     font-family: var(--ff-primary);
@@ -34,6 +39,3 @@ body {
     line-height: 1.5;
     font-size: 0.875rem;
 }
-
-
-
